@@ -3,7 +3,6 @@
 # ? This tool gets pptp vpn password from vpnbook
 # ------------------------------------------------
 
-from os import listdir
 from pyperclip import copy as copy_to_clipboard
 from pytesseract import image_to_string as ocr # for requested
 from PIL import Image
