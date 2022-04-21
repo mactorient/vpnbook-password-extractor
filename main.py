@@ -1,8 +1,3 @@
-# ------------------------------------------------
-# * Created by github.com/mactorient
-# * This tool gets pptp vpn password from vpnbook
-# ------------------------------------------------
-
 try:
     from pyperclip import copy as copy_to_clipboard
     from pytesseract import image_to_string as ocr # To extract the password from the photo
